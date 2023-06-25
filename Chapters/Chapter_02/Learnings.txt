@@ -1,0 +1,18 @@
+Tags
+
+h1 
+h2
+h3
+hr - horizonatal rule
+p - paragraph
+br - break
+em - emphasis
+strong - strong importance, renders as bold by default, provides semantic importance rather than just visual styling. Assistive technologies, search engines, and other user agents may interpret 
+abbr - abbrevation
+address - address
+
+Character
+&nbsp; - space
+&lt; - <
+&gt; - >
+&copy - copyright symbol
