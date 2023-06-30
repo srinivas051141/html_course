@@ -1,0 +1,7 @@
+<tags>
+ol(ordered_list) : tag for starting ordered list with numbers -indentaion applies for list items.
+li(list item): tag for the list item
+ul(unordered list) : tag for unordered list(bulleted list) - indentaion applies for list items.
+dl(description list): tag for description list
+dt(description term) : tag for description term
+dd(description detail) : tag for description detail - indentaion applies
