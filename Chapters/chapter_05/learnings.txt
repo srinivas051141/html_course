@@ -1,0 +1,29 @@
+a 
+
+difference between "link" and "a" tags
+"link" - helps to refer internal file(takes local/relative reference)
+"a" - helps to refer external links (takes absolute reference)
+
+section 
+    -    used for creating a navigation link for internal navigation.
+
+nav
+    - to list out all the navigation links
+
+download
+    - can add download feature by adding "download" keyword in anchor tag
+    ex : <a href="../html5.png"download>html5</a>
+mail
+    - can redirect to mail by adding "mail to" in href
+    ex " <a href ="mailto:random@mail.com">mail</a>
+
+tel
+    - can redirect to call by adding "tel:" in href parameter
+    ex : <a href="tel:+1234567890">call</a>
+
+target ="_blank"
+    - will open in new tab
+    - <a href="https://www.google.com" target="_blank"> google</a>
+     
+
+
