@@ -1,0 +1,33 @@
+img 
+    - img tag is inserting image in the webpage
+    - ex : <img src ="link">
+
+alt 
+    - "alt" is used for giving alt text which helps for screenreaders.
+    - ex : <img src ="link" alt="This is Html icon image">
+
+title
+    - "title" is used to give title to the image, when hover on it.
+    - ex :<img src = "link" alt ="this is html icon" title ="Html icon">
+
+width, height
+    -   "width", "height" is used to define the width and height of the image
+    - still overridden by css but it is goog practice to define
+    - ex : <img src = "link" alt ="this is html icon" title ="Html icon" width=200 height =200> 
+
+loading
+    - "loading" is used to define loading aspect of the image
+    - loading can have "lazy", "eager" states
+    - "lazy" helps browser to load html faster, and loads the image only when it is required
+    - "eager" makes browser to load all the images right from the start
+    - ex : <img src ="link" alt="description" title ="title" width =100 length =100 loading ="lazy">
+
+
+figure, figcaption
+    - gives image little spacing and can caption to the image
+    - figcaption should be in the top or bottom of the figure
+    -ex :   <figure>
+                <img src="link" alt="alt text" title="title" loading="lazy" width =100 length =100>
+
+                <figcaption>caption for the image</figcaption>
+            </figure>
