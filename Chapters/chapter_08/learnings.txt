@@ -1,0 +1,13 @@
+table
+
+
+tr 
+
+
+th, td
+
+colspan, rowspan
+
+thead, tbody, tfoot
+
+scope("col", "row")
