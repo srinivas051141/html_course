@@ -1,0 +1,32 @@
+form 
+    - to start the form
+    -ex : <form action = "https://httpbin.org/post" method ="post"></form>
+
+
+label
+    - to define the fields, id 
+    - ex :  <form action = "https://httpbin.org/post" method ="post">
+    <label for ="firstName">
+    First Name :
+    </label>
+    </form>
+
+input
+    - to define the input type, name and id(should match with "for" in the label)
+    ex : <form action = "https://httpbin.org/post" method ="post">
+    <label for ="firstName">
+    First Name :
+    </label>
+    <input type="text" name= "name" id ="firstName">
+    </form>
+    - placeholder, autocomplete, required, autofocus, etc can be give in the input
+
+input parameters
+    required
+    autocomplete
+    type(text, number, tel)
+    autofocus
+    pattern - takes regex expressions
+    placeholder
+
+
