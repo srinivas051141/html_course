@@ -211,6 +211,8 @@
                 I'd really like to hear from you!
             </p>
             <form action="https://httpbin.org/post" method ="post">
+                <fieldset>
+                    <legend>Personal Info</legend>
                 <p>
 
                     <label for="firstName">First Name:</label>
@@ -237,7 +239,7 @@
 
                 <p>
                     <label for="coffee"> Favorite Coffee:</label>
-                    <select name="coffee" id="coffee">
+                    <select name="coffee" id="coffee" multiple size ="4">
                         <optgroup label="Coffees">
                             <option value="black coffee">Black Coffee</option>
                             <option value="latte">Latte</option>
@@ -252,6 +254,77 @@
                     </select>
                     
                 </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Favourite Food?</legend>
+                    <p>
+                        <!-- <label for=""></label> -->
+                        <input type="radio" name="food" id="tacos" value ="tacos">
+                        <label for="tacos">Tacos</label>
+                    </p>
+                    <p>
+                        <!-- <label for=""></label> -->
+                        <input type="radio" name="food" id="pizza" value ="pizza">
+                        <label for="pizza">Pizza</label>
+                    </p>
+                    <p>
+                        <!-- <label for=""></label> -->
+                        <input type="radio" name="food" id="other" value ="other">
+                        <label for="other">other</label>
+                        
+                    </p>
+
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Do you have pets?</legend>
+                    <p>
+                        <input type="checkbox" name ="pets" id ="dog" value ="dog">
+                        <label for="dog">Dog</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name ="pets" id ="cat" value ="cat">
+                        <label for="cat">Cat</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name ="pets" id ="fish" value ="fish">
+                        <label for="fish">Fish</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name ="pets" id ="otherPet" value ="otherPet">
+                        <label for="otherPet">Other</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Send me a note</legend>
+                    <p>
+                        <label for="message">Message</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                        <!-- <input type="" name="pets" id="dog" value ="dog"> -->
+
+                    </p>
+                </fieldset>
+                <br>
+                
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <button type ="submit" formaction="https://httpbin.org/get" formmethod="get">Get</button>
+                <!-- <fieldset>
+                    <legend></legend>
+                </fieldset> -->
+
+                <!-- <p>
+                    <label for="coffee">Favourite Coffee:</label>
+                    <input type="text" name ="coffee" id ="coffee" list ="coffee-list">
+                    <datalist id ="coffee-list">
+                        <option value="coffee">
+                        <option value="latte">
+                        <option value="espresso">
+                        <option value="cortado">
+                    </datalist> 
+                </p> -->
 
             </form>
         </article>
