@@ -9,7 +9,7 @@ body {
     border-left: 1px solid #333;
     border-right: 1px solid #333;
 }
-a {
+/* a {
     color :aliceblue
 }
 
@@ -19,7 +19,7 @@ a:visited {
 
 a:hover, a:active {
     color :#eee;
-}
+} */
 
 
 table, tr, th, td, caption {
